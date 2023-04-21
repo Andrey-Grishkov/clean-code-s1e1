@@ -21,9 +21,11 @@
 }
 
 @media (max-width:768px) {
+
   .header {
     text-align: center;
   }
+
 }
 
 .main {
@@ -123,6 +125,7 @@
 .task-item > .task-checkbox {
   margin: 0 10px;
 }
+
 .task-item > .task-label {
   padding-left: 10px;
   box-sizing: border-box;
@@ -133,6 +136,7 @@
 .task-item > .task {
   width: 226px
 }
+
 .delete, .delete-image {
   height: 2em;
   transform: rotateZ(45deg);
