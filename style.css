@@ -34,7 +34,8 @@
   margin: 0 auto 0;
 }
 
-.task, .task-label {
+.task,
+.task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -44,16 +45,20 @@
   display: flex;
 }
 
-.completed-tasks, .incomplete-tasks {
+.completed-tasks,
+.incomplete-tasks {
   margin: 0;
   padding: 0;
 }
 
-.task-item, .task-title {
+.task-item,
+.task-title {
   list-style: none;
 }
 
-.task, .button, .task-label{
+.task,
+.button,
+.task-label {
   outline: none;
 }
 
@@ -71,7 +76,8 @@
   color: #3a3A3a;
 }
 /* Heading */
-.task-title, .new-task-label {
+.task-title,
+.new-task-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -137,13 +143,15 @@
   width: 226px;
 }
 
-.delete, .delete-image {
+.delete,
+.delete-image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete, .delete-image:hover {
+.delete,
+.delete-image:hover {
   transform: rotateZ(0);
 }
 
