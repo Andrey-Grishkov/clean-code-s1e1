@@ -12,6 +12,10 @@
   text-align: right;
 }
 
+.add-task-list {
+  padding: 0;
+}
+
 .header .header-image {
   width: 100%;
 }
@@ -161,10 +165,10 @@
   color: #888;
 }
 
-/* Edit Task */
-/*.task-display-none {*/
-/*  display: none;*/
-/*}*/
+ /*Edit Task */
+.task-display-none {
+  display: none;
+}
 
 .list .edit-mode .task-display-none {
   display: inline-block;
