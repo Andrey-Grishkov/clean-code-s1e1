@@ -64,7 +64,7 @@
 
 .button {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -156,7 +156,7 @@
 }
 
 /* Completed */
-.task-label {
+.task-label_completed {
   text-decoration: line-through;
   color: #888;
 }
