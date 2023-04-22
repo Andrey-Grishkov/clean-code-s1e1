@@ -162,9 +162,9 @@
 }
 
 /* Edit Task */
-.task-display-none {
-  display: none;
-}
+/*.task-display-none {*/
+/*  display: none;*/
+/*}*/
 
 .list .edit-mode .task-display-none {
   display: inline-block;
